@@ -1,21 +1,22 @@
 package rockpaperscissors;
 
 import rockpaperscissors.Paper;
+import rockpaperscissors.Rock;
 import rockpaperscissors.Scissors;
 
-public class Rock {
+public class Scissors {
 
-	public Rock(){
+	public Scissors(){
 	
+	}
+	public Object vs(Paper paper){
+		return this;
+	}
+	public Object vs(Rock rock){
+		return rock;
 	}
 	public Object vs(Scissors scissors){
 		return this;
 	}
-	public Object vs(Paper paper){
-		return paper;
-	}
-	public Object vs(Rock rock){
-		return this;
-	}
+	
 }
-
